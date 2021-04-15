@@ -1,0 +1,28 @@
+@media (min-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hide_on_desktop {
+        display: inline-block;
+    }
+    .header__nav > .container > ul {
+       padding: 0;
+   }
+}
+
+@media screen and (min-width: 768px) {
+    .intro__col {
+        width: calc(50% - 30px);
+        margin: 0 15px 30px; 
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro__col {
+        width: calc(33.332% - 30px);
+        margin: 0 15px 30px; 
+    }
+}

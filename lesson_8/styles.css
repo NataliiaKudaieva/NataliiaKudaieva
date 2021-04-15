@@ -1,0 +1,158 @@
+body {
+  background-color: rgb(197, 191, 191);
+}
+
+#wrapper {
+  position: relative;
+  overflow-x: hidden;
+  padding: 0 40px;
+}
+
+.container {
+  max-width: 1240px;
+  background-color: white;
+  padding: 20px;
+}
+
+.header__nav {
+  margin: 0 0 10px;
+}
+
+.container1 {
+  background-color: rgb(7, 7, 70);
+  padding: 20px;
+}
+
+ul {
+  text-decoration: white;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px 10px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.fab {
+  position: absolute;
+  right: calc(0% + 60px);
+}
+
+.intro__content {
+  padding-top: 30px;
+}
+
+.mainblock {
+  min-height: 200px;
+  background-color: yellowgreen;
+}
+
+.mainblock > h1 {
+  padding-top: 85px;
+  text-align: center;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.intro__content > h1 {
+  padding-top: 20px;
+  text-align: center;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.intro__col {
+  width: calc(33.332% - 30px);
+  float: left;
+  text-align: center;
+  min-height: 150px;
+  background-color: white;
+  padding: 10px;
+}
+
+.intro__col:nth-child(2) {
+  margin: 0px 45px 20px;
+}
+
+strong {
+  font-size: 30px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main_content {
+  background-color: white;
+  padding: 25px 10px 10px 10px;
+}
+
+.main_content_wrapper {
+  width: 100%;
+}
+
+.left_side_content,
+.right_side_content {
+  display: inline-block;
+  margin-left: -4px;
+  vertical-align: top;
+}
+
+.left_side_content {
+  width: 70%;
+}
+
+.right_side_content {
+  background-color: grey;
+  width: 30%;
+}
+
+.main_nav {
+  position: relative;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  width: 150px;
+}
+
+.ul_main {
+  display: inline-grid;
+}
+
+.gallery {
+  max-width: 1240px;
+  padding-top: 25px;
+}
+
+.gallery h1 {
+  text-align: center;
+}
+
+.gallery_floats {
+  width: calc(33.332% - 79px);
+  float: left;
+  text-align: center;
+  padding: 30px 10px;
+  min-height: 150px;
+  background-color: white;
+}
+
+.gallery_floats:nth-child(2) {
+  background-color: yellow;
+}
+
+.gallery_floats:nth-child(4) {
+  background-color: yellow;
+}
+
+.gallery_floats:nth-child(3) {
+  background-color: green;
+}
+
+.gallery_floats:nth-child(5) {
+  background-color: green;
+}

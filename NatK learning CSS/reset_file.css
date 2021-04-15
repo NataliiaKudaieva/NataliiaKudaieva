@@ -1,0 +1,26 @@
+body, html, div, h1, p, ul, li, a, table, caption, th, td, img 
+{
+    margin: 0; 
+    padding: 0;
+     border: 0; 
+     outline: none;
+    font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+}
+
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+
+table {
+        border-collapse: separate;
+        border-spacing: 0;
+}
+caption, th, td {
+        text-align: left;
+        font-weight: normal;
+}

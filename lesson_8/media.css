@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+  .intro__col {
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    padding: 20px;
+  }
+  .intro__col:nth-child(2) {
+    margin: 10px 0;
+  }
+
+  .main_content {
+    margin-top: 10px;
+  }
+
+  .left_side_content,
+  .right_side_content {
+    width: 100%;
+    margin: 0;
+  }
+
+  .gallery_floats {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__col p {
+    font-size: 15px;
+  }
+
+  .main_content {
+    margin-top: 20px;
+  }
+}
